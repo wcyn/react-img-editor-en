@@ -1,10 +1,15 @@
 {
-  "name": "react-img-editor",
-  "version": "0.2.2",
-  "description": "图片编辑器（微信截图编辑 PRO 版）",
+  "name": "react-img-editor-en",
+  "version": "0.1.0",
+  "description": "Image Annotation Tool for React",
   "keywords": [
-    "react-img-editor",
-    "image-editor"
+    "react-img-editor-en",
+    "image",
+    "editor",
+    "react",
+    "konva",
+    "javascript",
+    "annotation"
   ],
   "main": "lib/index",
   "module": "es/index",
@@ -23,32 +28,32 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YaoKaiLun/react-img-editor.git"
+    "url": "git+https://github.com/wcyn/react-img-editor.git"
   },
   "author": "kailunyao",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/YaoKaiLun/react-img-editor/issues"
+    "url": "https://github.com/wcyn/react-img-editor/issues"
   },
-  "homepage": "https://github.com/YaoKaiLun/react-img-editor#readme",
+  "homepage": "https://github.com/wcyn/react-img-editor#readme",
   "config": {
     "port": 8012
   },
   "devDependencies": {
-    "@types/pubsub-js": "^1.5.18",
-    "@types/react-dom": "^16.9.5",
-    "@typescript-eslint/eslint-plugin": "^2.17.0",
-    "@typescript-eslint/parser": "^2.17.0",
-    "eslint": "^6.8.0",
-    "eslint-plugin-import": "^2.20.0",
-    "eslint-plugin-react": "^7.18.0",
-    "eslint-plugin-react-hooks": "^2.4.0",
+    "@types/pubsub-js": "^1.8.6",
+    "@types/react-dom": "^18.3.0",
+    "@typescript-eslint/eslint-plugin": "^7.11.0",
+    "@typescript-eslint/parser": "^7.11.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
     "typescript": "^4.9.5"
   },
   "dependencies": {
-    "konva": "^4.1.2",
-    "pubsub-js": "^1.8.0",
+    "konva": "^9.3.11",
+    "pubsub-js": "^1.9.4",
     "rc-tools": "^9.6.1-alpha.1",
-    "rc-tooltip": "^4.0.0-alpha.3"
+    "rc-tooltip": "^6.2.0"
   }
 }
