@@ -30,7 +30,7 @@
     "type": "git",
     "url": "git+https://github.com/wcyn/react-img-editor-en.git"
   },
-  "author": "kailunyao",
+  "author": "wcyn",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/wcyn/react-img-editor-en/issues"
