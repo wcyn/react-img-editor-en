@@ -49410,7 +49410,7 @@ var Crop = /*#__PURE__*/function (_Plugin) {
       $cropToolbar.setAttribute("style", cropToolbarStyle);
       fragment.appendChild($cropToolbar);
       // 创建文本
-      var $textNode = document.createTextNode("拖动边框调整图片显示范围");
+      var $textNode = document.createTextNode("Drag the border to adjust the crop size");
       $cropToolbar.appendChild($textNode);
       var btnStyle = "display: inline-block; width: 32px; height: 24px; border: 1px solid #C9C9D0;" + "border-radius: 2px; text-align: center; cursor: pointer; line-height: 24px;";
       // 创建取消按钮
