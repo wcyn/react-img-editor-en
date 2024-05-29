@@ -28,14 +28,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wcyn/react-img-editor.git"
+    "url": "git+https://github.com/wcyn/react-img-editor-en.git"
   },
   "author": "kailunyao",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wcyn/react-img-editor/issues"
+    "url": "https://github.com/wcyn/react-img-editor-en/issues"
   },
-  "homepage": "https://github.com/wcyn/react-img-editor#readme",
+  "homepage": "https://github.com/wcyn/react-img-editor-en#readme",
   "config": {
     "port": 8012
   },
