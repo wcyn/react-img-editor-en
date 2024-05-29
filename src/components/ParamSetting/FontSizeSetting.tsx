@@ -1,5 +1,5 @@
-import React from 'react'
-import { prefixCls } from '../../common/constants'
+import React from "react";
+import { prefixCls } from "../../common/constants";
 
 interface FontSizeSettingProps {
   value?: number;
@@ -8,19 +8,31 @@ interface FontSizeSettingProps {
 
 export default function FontSizeSetting(props: FontSizeSettingProps) {
   return (
-    <span style={{ margin: '0 8px' }}>
+    <span style={{ margin: "0 8px" }}>
       <button
-        className={`${prefixCls}-font-size ${props.value === 12 ? prefixCls + '-font-size-activated' : ''}`}
+        className={`${prefixCls}-font-size ${
+          props.value === 12 ? prefixCls + "-font-size-activated" : ""
+        }`}
         onClick={() => props.onChange(12)}
-      >小</button>
+      >
+        S
+      </button>
       <button
-        className={`${prefixCls}-font-size ${props.value === 16 ? prefixCls + '-font-size-activated' : ''}`}
+        className={`${prefixCls}-font-size ${
+          props.value === 16 ? prefixCls + "-font-size-activated" : ""
+        }`}
         onClick={() => props.onChange(16)}
-      >中</button>
+      >
+        M
+      </button>
       <button
-        className={`${prefixCls}-font-size ${props.value === 20 ? prefixCls + '-font-size-activated' : ''}`}
+        className={`${prefixCls}-font-size ${
+          props.value === 20 ? prefixCls + "-font-size-activated" : ""
+        }`}
         onClick={() => props.onChange(20)}
-      >大</button>
+      >
+        L
+      </button>
     </span>
-  )
+  );
 }
