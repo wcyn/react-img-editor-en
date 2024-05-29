@@ -91,7 +91,9 @@ export default class Crop extends Plugin {
     fragment.appendChild($cropToolbar);
 
     // 创建文本
-    const $textNode = document.createTextNode("拖动边框调整图片显示范围");
+    const $textNode = document.createTextNode(
+      "Drag the border to adjust the crop size"
+    );
     $cropToolbar.appendChild($textNode);
 
     const btnStyle =
