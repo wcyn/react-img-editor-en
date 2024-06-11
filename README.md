@@ -2,6 +2,8 @@
 
 ![](https://img.shields.io/npm/v/react-img-editor-en.svg) ![](https://img.shields.io/npm/dw/react-img-editor-en.svg)
 
+NPM Package: https://www.npmjs.com/package/react-img-editor-en
+
 react-img-editor-en is an image editor react component that supports cropping, graffiti, text editing, mosaic processing and other operations on images. It also supports custom plug-ins and flexible style configuration.
 
 ![Example](https://s2.ax1x.com/2020/02/16/39gZcD.png)
